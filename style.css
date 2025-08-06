@@ -11,22 +11,27 @@ ul {
 /* Colours by level */
 .level-1 > li > .toggle,
 .level-1 > li {
-  color: #244C70;
+  color: #0A80D8;
 }
 
 .level-2 > li > .toggle,
 .level-2 > li {
-  color: #245D91;
+  color: #1E6EB4;
 }
 
 .level-3 > li > .toggle,
 .level-3 > li {
-  color: #1E6EB4;
+  color: #245D91;
 }
 
 .level-4 > li > .toggle,
 .level-4 > li {
-  color: #0A80D8;
+  color: #244C70;
+}
+
+.level-5 > li > .toggle,
+.level-5 > li {
+  color: #000;
 }
 
 li {
