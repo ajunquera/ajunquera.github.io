@@ -26,7 +26,7 @@ function buildTree(data) {
   return ul;
 }
 
-fetch("occ-web\cno-sispe-8d-hi.json")
+fetch("cno-sispe-8d-hi.json")
   .then(response => response.json())
   .then(data => {
     const treeContainer = document.getElementById("tree");
