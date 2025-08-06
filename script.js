@@ -1,5 +1,7 @@
-function buildTree(data) {
+function buildTree(data, level = 1) { // add level parameter and default value
   const ul = document.createElement("ul");
+
+  ul.classList.add(`level-${level}`);  // add CSS class with the level
 
   data.forEach(item => {
     const li = document.createElement("li");
@@ -9,7 +11,7 @@ function buildTree(data) {
       span.textContent = `${item.code} - ${item.name}`;
       span.classList.add("toggle");
 
-      const childUl = buildTree(item.children);
+      const childUl = buildTree(item.children, level + 1); // change level
       childUl.classList.add("hidden");
 
       span.onclick = () => childUl.classList.toggle("hidden");

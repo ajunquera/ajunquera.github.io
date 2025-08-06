@@ -5,6 +5,28 @@ body {
 ul {
   list-style: none;
   padding-left: 1em;
+  margin: 0;
+}
+
+/* Colours by level */
+.level-1 > li > .toggle,
+.level-1 > li {
+  color: #132B43;
+}
+
+.level-2 > li > .toggle,
+.level-2 > li {
+  color: #183652;
+}
+
+.level-3 > li > .toggle,
+.level-3 > li {
+  color: #1E4160;
+}
+
+.level-4 > li > .toggle,
+.level-4 > li {
+  color: #244C70;
 }
 
 li {
@@ -14,7 +36,6 @@ li {
 .toggle {
   cursor: pointer;
   font-weight: bold;
-  color: #0074D9;
 }
 
 .hidden {
