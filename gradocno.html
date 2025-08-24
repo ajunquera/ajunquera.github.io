@@ -20,26 +20,22 @@
 </head>
 <body>
   <h2>Ocupación de los empleados por grado universitario</h2>
-  <p>
-    <a href="index.html">⬅ Volver a la página principal</a>
-  </p>
+  <p><a href="index.html">⬅ Volver a la página principal</a></p>
 
-  <!-- Tabla -->
   <div id="example-table"></div>
 
   <!-- Tabulator JS -->
   <script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
   <script>
     var table = new Tabulator("#example-table", {
-      ajaxURL:"grado_occs_eilu19.csv",
+      ajaxURL:"grado_occs_eilu19j.json", // <-- apuntamos al JSON
       ajaxConfig:"GET",
-      ajaxContentType:"csv",
       layout:"fitColumns",
       responsiveLayout:"collapse",
       pagination:"local",
-      paginationSize:10,
+      paginationSize:20,
       columns:[
-        {title:"Campo de estudio", field:"campo", headerFilter:"select", headerFilterParams:true},    
+        {title:"Campo de estudio", field:"campo", editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},    
         {title:"Ocupación (código)", field:"code", headerFilter:"input"},
         {title:"Ocupación (nombre)", field:"name", headerFilter:"input"},
         {title:"Porcentaje", field:"percent", headerFilter:"input"},
