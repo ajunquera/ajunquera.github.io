@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álvaro Junquera - Ocupaciones por grado</title>
+
+  <!-- Tabulator CSS -->
+  <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+    }
+    #example-table {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ocupación de los empleados por grado universitario</h2>
+  <p>
+    <a href="index.html">⬅ Volver a la página principal</a>
+  </p>
+
+  <!-- Tabla -->
+  <div id="example-table"></div>
+
+  <!-- Tabulator JS -->
+  <script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
+  <script>
+    var table = new Tabulator("#example-table", {
+      ajaxURL:"grado_occs_eilu19.csv",
+      ajaxConfig:"GET",
+      ajaxContentType:"csv",
+      layout:"fitColumns",
+      responsiveLayout:"collapse",
+      pagination:"local",
+      paginationSize:10,
+      columns:[
+        {title:"Campo de estudio", field:"campo", headerFilter:"select", headerFilterParams:true}    
+        {title:"Ocupación (código)", field:"code", headerFilter:"input"},
+        {title:"Ocupación (nombre)", field:"name", headerFilter:"input"},
+        {title:"Porcentaje", field:"percent", headerFilter:"input"},
+      ],
+    });
+  </script>
+</body>
+</html>
