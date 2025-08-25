@@ -35,10 +35,10 @@
       pagination:"local",
       paginationSize:20,
       columns:[
-        {title:"Campo de estudio", field:"campo", editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},    
-        {title:"Ocupación (código)", field:"code", headerFilter:"input"},
-        {title:"Ocupación (nombre)", field:"name", headerFilter:"input"},
-        {title:"Porcentaje", field:"percent", headerFilter:"input"},
+        {title:"Campo de estudio", field:"campo", maxWidth:250, editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},    
+        {title:"Ocupación (código)", field:"code", maxWidth:150, headerFilter:"input"},
+        {title:"Ocupación (nombre)", field:"name", headerFilter:"input", formatter:"textarea"},
+        {title:"Porcentaje", field:"percent", maxWidth:150, headerFilter:"input"},
       ],
     });
   </script>
