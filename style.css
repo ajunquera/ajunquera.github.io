@@ -46,3 +46,8 @@ li {
 .hidden {
   display: none;
 }
+
+#example-table {
+  position: relative;
+}
+

@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Álvaro Junquera - Ocupaciones por grado</title>
 
+  <!-- To write in LaTeX -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   <!-- Tabulator CSS -->
   <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
 
@@ -19,7 +22,7 @@
   </style>
 </head>
 <body>
-  <h2>Ocupación de los empleados por grado universitario</h2>
+  <h2>Ocupación (profesión) según el grado universitario</h2>
   <p><a href="index.html">⬅ Volver a la página principal</a></p>
 
   <div id="example-table"></div>
@@ -28,19 +31,44 @@
   <script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
   <script>
     var table = new Tabulator("#example-table", {
-      ajaxURL:"grado_occs_eilu19j.json", // <-- apuntamos al JSON
+      ajaxURL:"grado_occs_eilu19j.json",
       ajaxConfig:"GET",
       layout:"fitColumns",
       responsiveLayout:"collapse",
       pagination:"local",
       paginationSize:20,
+      popupContainer:"#example-table",
+
       columns:[
-        {title:"Campo de estudio", field:"campo", maxWidth:250, editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true}},    
+        {
+            title:"Campo de estudio", field:"campo", maxWidth:250, editor:"input", headerFilter:"list", headerFilterParams:{valuesLookup:true, clearable:true, multiselect:false, showListOnEmpty:true},
+            headerFilterLiveFilter:true, headerFilterPlaceholder:"Filtrar..."
+        },    
         {title:"Ocupación (código)", field:"code", maxWidth:150, headerFilter:"input"},
         {title:"Ocupación (nombre)", field:"name", headerFilter:"input", formatter:"textarea"},
         {title:"Porcentaje", field:"percent", maxWidth:150, headerFilter:"input"},
       ],
     });
   </script>
+  <p style="font-size: 1.25rem; font-weight: normal;">
+    Las estimaciones se han realizado con microdatos de la última Encuesta de Inserción Laboral de Titulados Universitarios
+    (EILU 2019) realizada por el <a href="https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176991&menu=ultiDatos&idp=1254735976597">INE</a>.
+    Esta encuesta recogió datos entre julio y diciembre de 2019 sobre los individuos que consiguieron un grado universitario en el año 2014.
+    Es la fuente pública que permite una mayor desagregación de la variable ocupación (CNO a 2 dígitos) y campo de estudio (CNED-2014-F Nivel 3).</p>
+
+  <p style="font-size: 1.25rem; font-weight: normal;">
+    Los parámetros estimados en la última columna son parámetros <i>descriptivos</i>.
+    Cada uno de ellos recoge la proporción de individuos empleados en la ocupación \( o \)
+    dado que estudiaron un grado del campo de estudio \( c \), lo que se denota  \( \Pr[O=o \mid C=c] \).
+    Como puede verse en el <a href="https://github.com/ajunquera/ajunquera.github.io/blob/main/occsporgrado.R">código de R</a>,
+    hemos aplicado dos condiciones más a todos los individuos: que estén 
+    empleados y que no hayan finalizado otros estudios.</p>
+
+  <p style="font-size: 1.25rem; font-weight: normal;">
+    Estos parámetros <b>no</b> son parámetros <i>causales</i>, pues no informan del <i>efecto</i> de estudiar un grado
+    del campo de estudio \( c \) sobre la probabilidad de estar empleado en la ocupación \( o \). Esto se denotaría
+    \( \Pr[O=o \mid do(C=c)] \) y es mucho más difícil de estimar. Para entender bien la diferencia entre
+    asociación y efecto ("causalidad"), recomiendo leer el libro de <a href="https://web.cs.ucla.edu/~kaoru/primer-complete-2019.pdf"> Pearl, Glymour y Jewell (2016)</a>.
+</p>
 </body>
 </html>
