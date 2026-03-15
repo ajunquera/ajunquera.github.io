@@ -1,0 +1,10 @@
+---
+title: "Personal"
+title-block-banner: false
+---
+
+My greatest passion is the *Carnival of Cádiz*, a mixture of different arts with a deep concern for social problems and popular beauty. Every February, numerous groups share musical theatres ranging from the poetic to the comical.
+
+{{< video https://www.youtube.com/watch?v=pm79P9BHtco start="372" >}}
+
+{{< video https://www.youtube.com/watch?v=k7xzazEcMT4 start="421" >}}

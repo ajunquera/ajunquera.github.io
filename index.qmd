@@ -1,11 +1,14 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Álvaro Junquera"
+subtitle: |
+  Barcelona Supercomputing Center (BSC-CNS)
+description-meta: "Álvaro Fernández Junquera is a researcher in labour economics"
+image: "files/images/afj.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
 page-layout: full
+from: markdown+emoji
 
 about:
   id: hero-heading
@@ -14,104 +17,68 @@ about:
   links:
     - icon: sun
       text: Lab
-      href: https://www.github.com
+      href: https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh
       target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
+#    - icon: globe
+#      text: Uprofile
+#      href: https://baruch.cuny.edu
+#      target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
+      href: mailto:alvaro.junquera@bsc.es  
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://linkedin.com
+#      target: _blank
+#    - icon: youtube
+#      text: YouTube
+#      href: https://www.youtube.com     
+#      target: _blank 
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+      href: https://orcid.org/0000-0003-0080-7608
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
+#    - text: "{{< ai clarivate >}} Web of Science"
+#      href: https://www.webofscience.com  
+#      target: _blank
+#    - text: "{{< ai scopus >}} Scopus"
+#      href: https://www.scopus.com
+#      target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.es/citations?user=K-5DfYoAAAAJ&hl=es&oi=ao
       target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net
 #      target: _blank
 
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
+#listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+#  - id: recent-posts
+#    contents: 
+#      - posts
+#      - posts/post-links.yml
+#    exclude:
+#      title: ""
+#    type: grid
+#    max-items: 3
 #    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+#    page-size: 3 #set same as max-times to remove the page number setting
+#    fields: [image, date, title, subtitle]
+#    max-description-length: 75
+#    sort: 
+#      - "date desc"
+#      - "title asc"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+I am a postdoctoral researcher at the [Computational Social Sciences and Humanities Laboratory](https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh) of the Barcelona Supercomputing Center (BSC). I'm part of the [Welfare and Equity](https://www.bsc.es/research-development/research-areas/social-simulation/welfare-and-equity) team, led by Prof. Caterina Calsamiglia.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I am interested in labour markets, public policy, and methods. My research is focused on the application of causal inference and machine learning to the analysis of labour market policies and industrial policies. I have taught data analysis courses using `R`.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Test to publish** your site using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Check** if your website works or not. If successful, you should see exactly the same website as this one using your own Github Pages url:
-   - `https://YourGitHubUserName.github.io` if your repository name is `YourGitHubUserName.github.io`
-   - `https://YourGitHubUserName.github.io/RepositoryName` for other `RepositoryName`
-   - Errors:
-      - If [404](/files/images/Error1.png), it is likely you haven't set up GitHub Pages
-      - If it shows the [README](/files/images/Error2.png) file, it is likely you've published from the `root` folder, not the `docs` directory
+## News
 
-If you achieve this milestone, congratulations! You are now ready to start updating your website:
-
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/#website-preview) your site locally.  
-1. **`Commit` to publish** your updates.
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
-1. **Link** your website on your official pages to let Google and AI bots include in their search results.
-
-## Experience
-
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
+- 07/11/25: Talk at the IV Workshop on International Trends in Economic Research ([UGR](https://tehieco.ugr.es/en)) to present "More money, more effects?".
+- 05/11/25: Our project "Strategies for Human capital Advancement and Productive Employment" (SHAPE) has been awarded [funding](https://www.aei.gob.es/en/announcements/announcements-finder/proyectos-generacion-conocimiento-2024) from the Ministry of Science, Innovation and Universities (Government of Spain).
+- 28/10/25: The policy report on effective ALMP for people with mental disorders (written with D. Gallardo & D. Saeteros) has been [published](https://ivalua.cat/sites/default/files/2025-10/Revsi%C3%B3%20Evid%C3%A8ncia%20Pol%C3%ADtiques%20d%27ocupaci%C3%B3%20Salut%20mental%20Def_0.pdf).
+- 17/10/25: Our paper "From rules to forests" (written with C. Kern) has been [published](https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w).
 
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>

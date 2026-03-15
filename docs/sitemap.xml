@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
-    <lastmod>2025-06-06T22:28:53.960Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
-    <lastmod>2025-03-11T20:28:51.830Z</lastmod>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
+    <lastmod>2026-03-15T19:11:25.464Z</lastmod>
   </url>
   <url>
     <loc>https://drganghe.github.io/quarto-academic-website-template/projects.html</loc>
-    <lastmod>2025-02-10T13:31:20.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
-    <lastmod>2025-06-06T22:34:03.868Z</lastmod>
+    <lastmod>2026-03-14T19:26:10.202Z</lastmod>
   </url>
   <url>
     <loc>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/index.html</loc>
-    <lastmod>2025-02-08T20:29:49.171Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
-    <lastmod>2025-02-10T15:14:33.036Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/contact.html</loc>
-    <lastmod>2025-02-08T02:43:14.168Z</lastmod>
+    <lastmod>2026-03-14T19:26:10.191Z</lastmod>
   </url>
   <url>
     <loc>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/index.html</loc>
-    <lastmod>2025-02-10T14:44:43.941Z</lastmod>
-  </url>
-  <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
-    <lastmod>2026-02-06T12:48:33.966Z</lastmod>
+    <lastmod>2026-03-14T19:26:10.127Z</lastmod>
   </url>
   <url>
     <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2026-02-03T19:55:18.149Z</lastmod>
+    <lastmod>2026-03-14T19:26:10.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/classifications.html</loc>
+    <lastmod>2026-03-15T19:08:58.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
+    <lastmod>2026-03-15T20:17:08.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/personal.html</loc>
+    <lastmod>2026-03-15T19:26:49.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
+    <lastmod>2026-03-14T19:26:10.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
+    <lastmod>2026-03-14T19:26:10.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/research.html</loc>
+    <lastmod>2026-03-15T19:12:24.104Z</lastmod>
   </url>
 </urlset>

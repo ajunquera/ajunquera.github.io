@@ -5,24 +5,24 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Quarto Academic</title>
+<title>Álvaro Junquera</title>
 <link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
 <atom:link href="https://drganghe.github.io/quarto-academic-website-template/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Quarto Academic Website Template adapted by Dr. Gang He</description>
 <image>
-<url>https://quarto.org/quarto.png</url>
-<title>Quarto Academic</title>
+<url>https://drganghe.github.io/quarto-academic-website-template/images/quarto.png</url>
+<title>Álvaro Junquera</title>
 <link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Oct 2024 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://drganghe.github.io/quarto-academic-website-template/</link>
   <description>Examples and tips for Quarto Academic Website</description>
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Tue, 15 Oct 2024 04:00:00 GMT</pubDate>
+  <pubDate>Mon, 14 Oct 2024 22:00:00 GMT</pubDate>
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -30,6 +30,7 @@
   <dc:creator>Event </dc:creator>
   <link>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -52,7 +53,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>event</category>
   <category>presentation</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</guid>
-  <pubDate>Tue, 03 Sep 2024 04:00:00 GMT</pubDate>
+  <pubDate>Mon, 02 Sep 2024 22:00:00 GMT</pubDate>
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
@@ -60,6 +61,7 @@ https://quarto.org/docs/authoring/includes.html
   <dc:creator>News </dc:creator>
   <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -84,7 +86,7 @@ https://quarto.org/docs/authoring/includes.html
  ]]></description>
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Jun 2024 22:00:00 GMT</pubDate>
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
 </item>
 <item>
@@ -94,6 +96,7 @@ https://quarto.org/docs/authoring/includes.html
   <dc:creator>Nathan Rosen</dc:creator>
   <link>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -146,7 +149,7 @@ Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https
 </div></div></section></div> ]]></description>
   <category>paper</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 04:00:00 GMT</pubDate>
+  <pubDate>Wed, 15 May 1935 00:00:00 GMT</pubDate>
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

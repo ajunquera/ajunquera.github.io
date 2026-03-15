@@ -3,79 +3,81 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Álvaro Fernández Junquera is a researcher in labour economics"
+author-meta: "Álvaro Junquera"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Álvaro Junquera"
+  description: "Álvaro Fernández Junquera is a researcher in labour economics"
  
   navbar:
-    background: light  # You can change the background color here
+#    background: black  # You can change the background color here, originally "light"
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
+#      - text: About
 #        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+#      - text: About
+#        menu:
+#          - text: News
+#            href: posts.qmd#category=news
+#          - text: Events
+#            href: posts.qmd#category=event      
+#          - text: Contact
+#            href: contact.qmd             
       - text: Research
-        menu:
-          - text: List of Publications
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
+        href: research.qmd
+#        menu:
+#          - text: List of Publications
+#            href: publications.qmd
+#          - text: Selected Papers
+#            href: posts.qmd#category=paper
+#          - text: Grants
+#            href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
-      - text: Outreach
+      - text: Others
         menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+        - text: Classifications
+          href: classifications.qmd                   
+        - text: Personal
+          href: personal.qmd
 
     right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/CV_AFJ_01-2026.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/ajunquera
         target: _blank
       - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
+        href: http://junquera.bsky.social/
         target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+#      - icon: rss
+#        href: posts.xml
+#        target: _blank
   
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Álvaro Junquera](https://github.com/ajunquera/ajunquera.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center:
+      - text: "Design borrowed from <a href='https://github.com/drganghe/quarto-academic-website-template' target='_blank'>Gang He</a> and made with <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>"
+
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/ajunquera/ajunquera.github.io
         target: _blank
       - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
+        href: http://junquera.bsky.social/
         target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+#      - icon: rss
+#        href: posts.xml
+#        target: _blank  
   
   search:
     location: navbar
-    type: textbox
+    type: overlay
   
-  reader-mode: true
+  reader-mode: false
 
   draft-mode: unlinked
   
@@ -97,7 +99,9 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: [darkly, custom_dark.scss]
+      light: [flatly, custom_light.scss]
     css: styles.css
     toc: true
     footnotes-hover: true

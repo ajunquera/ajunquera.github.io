@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "I teach courses related to data analysis and labour economics"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "objectID": "teaching.html#instructor",
+    "href": "teaching.html#instructor",
+    "title": "Teaching",
+    "section": "Instructor",
+    "text": "Instructor\nStatistical Techniques for Social Research. Bachelor in Political Science (UB). 2024/2025. Instructor. [syllabus], [schedule].\nComparative Employment Policies in the European Union. Master in Social Policy, Employment and Welfare (UAB). 2025/2026, 2024/2025. Co-instructor (2 lectures). [syllabus].\nEvaluation techniques for qualitative data. Specialization Diploma in Evaluation of Labour Market Policies (UB). 2024/2025, 2023/2024. Co-instructor (2 lectures). [slides]."
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "Teaching assistant",
+    "text": "Teaching assistant\nMultivariable Data Analysis. Bachelor in Sociology (UAB). 2023/2024. [syllabus].\nData Analysis. Bachelor in Criminology (UAB). 2022/2023, 2021/2022, 2020/2021.[syllabus]."
   },
   {
     "objectID": "projects.html",
@@ -26,20 +26,6 @@
     "title": "Projects",
     "section": "",
     "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
-  },
-  {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
-    "section": "",
-    "text": "About the news"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -54,69 +40,6 @@
     "title": "Can quantum-mechanical description of physical reality be considered complete?",
     "section": "Links",
     "text": "Links\nPublished paper"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nTest to publish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nCheck if your website works or not. If successful, you should see exactly the same website as this one using your own Github Pages url:\n\nhttps://YourGitHubUserName.github.io if your repository name is YourGitHubUserName.github.io\nhttps://YourGitHubUserName.github.io/RepositoryName for other RepositoryName\nErrors:\n\nIf 404, it is likely you haven’t set up GitHub Pages\nIf it shows the README file, it is likely you’ve published from the root folder, not the docs directory\n\n\n\nIf you achieve this milestone, congratulations! You are now ready to start updating your website:\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nCommit to publish your updates.\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\nLink your website on your official pages to let Google and AI bots include in their search results.\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Researcher, Univerisity"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "PhD, Univerisity"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Quarto Academic, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
     "objectID": "people.html",
@@ -138,5 +61,96 @@
     "title": "People",
     "section": "Alumni",
     "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2022-01\n\n\n2026-01\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024-01\n\n\n2025-01\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2023-01\n\n\n2024-01\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "classifications.html",
+    "href": "classifications.html",
+    "title": "Classifications",
+    "section": "",
+    "text": "Clean"
+  },
+  {
+    "objectID": "classifications.html#cno-sispe",
+    "href": "classifications.html#cno-sispe",
+    "title": "Classifications",
+    "section": "",
+    "text": "Clean"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Álvaro Junquera",
+    "section": "",
+    "text": "Lab\n  \n  \n    \n     E-mail\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nI am a postdoctoral researcher at the Computational Social Sciences and Humanities Laboratory of the Barcelona Supercomputing Center (BSC). I’m part of the Welfare and Equity team, led by Prof. Caterina Calsamiglia.\nI am interested in labour markets, public policy, and methods. My research is focused on the application of causal inference and machine learning to the analysis of labour market policies and industrial policies. I have taught data analysis courses using R.\n\n\n\n07/11/25: Talk at the IV Workshop on International Trends in Economic Research (UGR) to present “More money, more effects?”.\n05/11/25: Our project “Strategies for Human capital Advancement and Productive Employment” (SHAPE) has been awarded funding from the Ministry of Science, Innovation and Universities (Government of Spain).\n28/10/25: The policy report on effective ALMP for people with mental disorders (written with D. Gallardo & D. Saeteros) has been published.\n17/10/25: Our paper “From rules to forests” (written with C. Kern) has been published."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Álvaro Junquera",
+    "section": "",
+    "text": "07/11/25: Talk at the IV Workshop on International Trends in Economic Research (UGR) to present “More money, more effects?”.\n05/11/25: Our project “Strategies for Human capital Advancement and Productive Employment” (SHAPE) has been awarded funding from the Ministry of Science, Innovation and Universities (Government of Spain).\n28/10/25: The policy report on effective ALMP for people with mental disorders (written with D. Gallardo & D. Saeteros) has been published.\n17/10/25: Our paper “From rules to forests” (written with C. Kern) has been published."
+  },
+  {
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Personal",
+    "section": "",
+    "text": "My greatest passion is the Carnival of Cádiz, a mixture of different arts with a deep concern for social problems and popular beauty. Every February, numerous groups share musical theatres ranging from the poetic to the comical."
+  },
+  {
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
+    "section": "",
+    "text": "About the news"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "👷 My research is driven by two big questions: (I) What explains the high unemployment rates in Spain? and (II) What interventions can reduce this problem?"
+  },
+  {
+    "objectID": "research.html#ongoing-research",
+    "href": "research.html#ongoing-research",
+    "title": "Research",
+    "section": "Ongoing research",
+    "text": "Ongoing research\n\nDesign and implementation of social and industrial policies in a multilevel government\nHeterogeneous employment effects of adult training"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working papers",
+    "text": "Working papers\n[04/2025] More money, more effect? Employment effects of job search services of different intensity. Submitted. [pdf], [code].\n[01/2025] Which companies use employment subsidies for young workers? Submitted. [pdf]."
+  },
+  {
+    "objectID": "research.html#publications-in-journals-or-books",
+    "href": "research.html#publications-in-journals-or-books",
+    "title": "Research",
+    "section": "Publications in journals or books",
+    "text": "Publications in journals or books\n[2025] From rules to forests: rule-based versus statistical models for jobseeker profiling (with Christoph Kern). Article in Journal for Labour Market Research. [paper], [code], [review in the Catalan PES].\n[2025] Outsourcing and time-related dimensions of job quality: Evidence from the Facility Management business (with Alejandro Godino). Chapter in Outsourcing. Cases and Studies in Using Operations Research and Management Science Methods. Springer. [chapter], [preprint], [code].\n[2024] Las políticas activas de empleo en el marco de las políticas de empleo. Article in Anuario IET de Trabajo y Relaciones Laborales. [paper].\n[2024] Efectos de la asistencia en la búsqueda de empleo: una revisión sistemática para España. Article in Gestión y Análisis de Políticas Públicas. [paper].\n[2024] El diseño de los subsidios al empleo del Servei Públic d’Ocupació de Catalunya (2016-2018). Chapter in Precariedades laborales y desigualdades de género en Iberoamérica. Dyckinson. [chapter], [book], [annotation instructions]."
+  },
+  {
+    "objectID": "research.html#policy-reports",
+    "href": "research.html#policy-reports",
+    "title": "Research",
+    "section": "Policy reports",
+    "text": "Policy reports\n[2025] Què funciona en polítiques actives d’ocupació per a persones amb trastorns de salut mental? Una revisió sistemàtica de la literatura (with David Gallardo and David Saeteros). [report], [summary].\n[2023] PerfilaSP - Anàlisi de variables sociològiques i psicològiques com a predictores d’ocupabilitat en el perfilatge dels Serveis d’Ocupació de Catalunya (with Oscar Molina). [report].\n[2022] Informe d’ampliació de l’avaluació de Reempresa-SOC (with Joan Miquel Verd). [report].\n[2021] Avaluació del disseny, la implementació i l’impacte del programa Reempresa-SOC (with Joan Miquel Verd and Caterina Molero). [report]."
   }
 ]

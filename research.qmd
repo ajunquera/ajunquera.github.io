@@ -1,0 +1,43 @@
+---
+title: "Research"
+description-meta: "Information, pdfs, and social metrics of papers"
+#page-layout: full
+#back-to-top-navigation: true
+title-block-banner: false
+from: markdown+emoji
+---
+
+:construction_worker: My research is driven by two big questions: (I) What explains the high unemployment rates in Spain? and (II) What interventions can reduce this problem? 
+
+## Ongoing research
+
+- Design and implementation of social and industrial policies in a multilevel government
+- Heterogeneous employment effects of adult training
+
+## Working papers
+
+[04/2025] **More money, more effect? Employment effects of job search services of different intensity**. Submitted. \[[pdf](https://osf.io/preprints/socarxiv/rjshu_v2)\], \[[code](https://github.com/ajunquera/moremoney)\].
+
+[01/2025] **Which companies use employment subsidies for young workers?** Submitted. \[[pdf](https://1drv.ms/b/c/9f2f7e1c80f48740/ERkMlv-E9_lPq6jhYDkjO7wB5_iLW-TWIO5lw9GmoxrT9A?e=HYtF9P)\].
+
+## Publications in journals or books
+
+[2025] **From rules to forests: rule-based versus statistical models for jobseeker profiling** (with Christoph Kern). Article in *Journal for Labour Market Research*. [[paper](https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w)], [[code](https://github.com/ajunquera/rulesforests)], [[review in the Catalan PES](https://serveiocupacio.gencat.cat/ca/detall/article/Ressenyes-00001)].
+
+[2025] **Outsourcing and time-related dimensions of job quality: Evidence from the Facility Management business** (with Alejandro Godino). Chapter in *Outsourcing. Cases and Studies in Using Operations Research and Management Science Methods*. Springer. [[chapter](https://link.springer.com/chapter/10.1007/978-3-031-95393-4_2)], [[preprint](https://1drv.ms/b/c/9f2f7e1c80f48740/Ed4CiHHS2j9Kl2ClRzxrd6QB7lmHA74OYQg-YluowvWWHA?e=6rd0JP)], [[code](https://github.com/ajunquera/outsourcing)].
+
+[2024] **Las políticas activas de empleo en el marco de las políticas de empleo**. Article in *Anuario IET de Trabajo y Relaciones Laborales*. [[paper](https://revistes.uab.cat/anuarioiet/article/view/v10-junquera)].
+
+[2024] **Efectos de la asistencia en la búsqueda de empleo: una revisión sistemática para España**. Article in *Gestión y Análisis de Políticas Públicas*. [[paper](https://revistasonline.inap.es/index.php/GAPP/article/view/11259/12674)].
+
+[2024] **El diseño de los subsidios al empleo del Servei Públic d'Ocupació de Catalunya (2016-2018)**. Chapter in *Precariedades laborales y desigualdades de género en Iberoamérica*. Dyckinson. [[chapter](https://1drv.ms/b/c/9f2f7e1c80f48740/EX7S6tnVmN9FpT91SiFsfrUBUIH3q_7YKge7FB3vOrTv6Q?e=W0B9AY)], [[book](https://www.dykinson.com/cart/download/ebooks/19730/)], [[annotation instructions](https://osf.io/hjgcb/files/osfstorage)].
+
+## Policy reports
+
+[2025] Què funciona en polítiques actives d'ocupació per a persones amb trastorns de salut mental? Una revisió sistemàtica de la literatura (with David Gallardo and David Saeteros). [[report](https://ivalua.cat/sites/default/files/2025-10/Revsi%C3%B3%20Evid%C3%A8ncia%20Pol%C3%ADtiques%20d%27ocupaci%C3%B3%20Salut%20mental%20Def_0.pdf)], [[summary](https://ivalua.cat/es/node/6038)].
+
+[2023] PerfilaSP - Anàlisi de variables sociològiques i psicològiques com a predictores d’ocupabilitat en el perfilatge dels Serveis d’Ocupació de Catalunya (with Oscar Molina). [[report](https://hdl.handle.net/20.500.14227/1586)].
+
+[2022] Informe d'ampliació de l'avaluació de Reempresa-SOC (with Joan Miquel Verd). [[report](https://1drv.ms/b/c/9f2f7e1c80f48740/EfkcSUscf9hJl9jfyg0ghk4BTjlZ7oElhSO9hDBjjYHoQw?e=B4iTtW)].
+
+[2021] Avaluació del disseny, la implementació i l'impacte del programa Reempresa-SOC (with Joan Miquel Verd and Caterina Molero). [[report](https://1drv.ms/b/c/9f2f7e1c80f48740/EYrW5-alQpBDul6cv6SDRLABxTjmOZ7kMeD5aqomOFOacQ?e=LeSzbj)].

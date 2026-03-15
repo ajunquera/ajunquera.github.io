@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="author" content="Álvaro Junquera">
+<meta name="description" content="Álvaro Fernández Junquera is a researcher in labour economics">
 
-<title>Quarto Academic, PhD – Quarto Academic</title>
+<title>Álvaro Junquera</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,18 +32,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b230b738b7e75f116ff75a2585a9efa2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d0ac1a4e16878777ffd71f2e25ecfece.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -53,7 +53,7 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "textbox",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -74,36 +74,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -134,48 +104,179 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="Quarto Academic, PhD – Quarto Academic">
-<meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
+<meta property="og:title" content="Álvaro Junquera">
+<meta property="og:description" content="Barcelona Supercomputing Center (BSC-CNS)">
+<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/afj.jpg">
+<meta property="og:site_name" content="Álvaro Junquera">
+<meta name="twitter:title" content="Álvaro Junquera">
+<meta name="twitter:description" content="Barcelona Supercomputing Center (BSC-CNS)">
+<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/afj.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -183,7 +284,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">Álvaro Junquera</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -192,91 +293,48 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
- <span class="dropdown-text">News</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">List of Publications</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-others" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Others</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-others">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+    <a class="dropdown-item" href="./classifications.html">
+ <span class="dropdown-text">Classifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./personal.html">
+ <span class="dropdown-text">Personal</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">Group</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
+    <a class="nav-link" href="./files/CV_AFJ_01-2026.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/ajunquera" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
+    <a class="nav-link" href="http://junquera.bsky.social/" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -292,186 +350,71 @@ window.Quarto = {
 
 
 
+
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
-    <img src="files/images/placeholder4.JPG" class="about-image
+    <img src="files/images/afj.jpg" class="about-image
   rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Academic, PhD</h1>
+<h1 class="title">Álvaro Junquera</h1>
+<p class="subtitle lead"></p><p>Barcelona Supercomputing Center (BSC-CNS)</p><p></p>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.github.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh" class="about-link" rel="" target="_blank">
     <i class="bi bi-sun"></i>
      <span class="about-link-text">Lab</span>
   </a>
-  <a href="https://baruch.cuny.edu" class="about-link" rel="" target="_blank">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Uprofile</span>
-  </a>
-  <a href="mailto:email@gmail.com" class="about-link" rel="" target="">
+  <a href="mailto:alvaro.junquera@bsc.es" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">E-mail</span>
   </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://www.youtube.com" class="about-link" rel="" target="_blank">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-  <a href="https://orcid.org" class="about-link" rel="" target="_blank">
+  <a href="https://orcid.org/0000-0003-0080-7608" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
   </a>
-  <a href="https://www.webofscience.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-clarivate"></i> Web of Science</span>
-  </a>
-  <a href="https://www.scopus.com" class="about-link" rel="" target="_blank">
-     <span class="about-link-text"><i class="ai  ai-scopus"></i> Scopus</span>
-  </a>
-  <a href="https://scholar.google.com" class="about-link" rel="" target="_blank">
+  <a href="https://scholar.google.es/citations?user=K-5DfYoAAAAJ&amp;hl=es&amp;oi=ao" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<p>I’m a <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academeic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a>.</p>
-<p>I’m a template that you can fork to build your own website with easy adaptation and deployment.</p>
-<ol type="1">
-<li><strong>Star</strong> this repository to bookmark it for future reference.<br>
-</li>
-<li><strong>Fork</strong> this repository and rename it to <code>YourGitHubUserName.github.io</code>.<br>
-</li>
-<li><strong>Test to publish</strong> your site using <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch">GitHub Pages</a> (make sure <a href="https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png">configuring</a> your GitHub repository to publish from the <code>docs</code> directory, not the <code>root</code> folder).</li>
-<li><strong>Check</strong> if your website works or not. If successful, you should see exactly the same website as this one using your own Github Pages url:
+<p>I am a postdoctoral researcher at the <a href="https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh">Computational Social Sciences and Humanities Laboratory</a> of the Barcelona Supercomputing Center (BSC). I’m part of the <a href="https://www.bsc.es/research-development/research-areas/social-simulation/welfare-and-equity">Welfare and Equity</a> team, led by Prof.&nbsp;Caterina Calsamiglia.</p>
+<p>I am interested in labour markets, public policy, and methods. My research is focused on the application of causal inference and machine learning to the analysis of labour market policies and industrial policies. I have taught data analysis courses using <code>R</code>.</p>
+<section id="news" class="level2">
+<h2 data-anchor-id="news">News</h2>
 <ul>
-<li><code>https://YourGitHubUserName.github.io</code> if your repository name is <code>YourGitHubUserName.github.io</code></li>
-<li><code>https://YourGitHubUserName.github.io/RepositoryName</code> for other <code>RepositoryName</code></li>
-<li>Errors:
-<ul>
-<li>If <a href="./files/images/Error1.png">404</a>, it is likely you haven’t set up GitHub Pages</li>
-<li>If it shows the <a href="./files/images/Error2.png">README</a> file, it is likely you’ve published from the <code>root</code> folder, not the <code>docs</code> directory</li>
-</ul></li>
-</ul></li>
-</ol>
-<p>If you achieve this milestone, congratulations! You are now ready to start updating your website:</p>
-<ol type="1">
-<li><strong>Update</strong> the <code>_quarto.yml</code> file to configure your site’s basic settings.<br>
-</li>
-<li><strong>Add or edit content</strong> in the following files and folders:
-<ul>
-<li><code>/posts/</code> – posts about publications, news, events<br>
-</li>
-<li><code>teaching.qmd</code> – teaching information<br>
-</li>
-<li><code>projects.yml</code> – research or other projects<br>
-</li>
-<li><code>people.qmd</code> and <code>/people/</code> – team or collaborators<br>
-</li>
-<li><code>/files/</code> - profiles, images, pdfs, and includes</li>
-</ul></li>
-<li><a href="https://quarto.org/docs/websites/#website-preview"><strong>Render and preview</strong></a> your site locally.<br>
-</li>
-<li><strong><code>Commit</code> to publish</strong> your updates.</li>
-<li><strong>Refine and polish</strong> your content and design as needed.<br>
-</li>
-<li>✅ Enjoy your new website!</li>
-<li><strong>Link</strong> your website on your official pages to let Google and AI bots include in their search results.</li>
-</ol>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<ul>
-<li>Researcher, Univerisity</li>
-</ul>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li>PhD, Univerisity</li>
+<li>07/11/25: Talk at the IV Workshop on International Trends in Economic Research (<a href="https://tehieco.ugr.es/en">UGR</a>) to present “More money, more effects?”.</li>
+<li>05/11/25: Our project “Strategies for Human capital Advancement and Productive Employment” (SHAPE) has been awarded <a href="https://www.aei.gob.es/en/announcements/announcements-finder/proyectos-generacion-conocimiento-2024">funding</a> from the Ministry of Science, Innovation and Universities (Government of Spain).</li>
+<li>28/10/25: The policy report on effective ALMP for people with mental disorders (written with D. Gallardo &amp; D. Saeteros) has been <a href="https://ivalua.cat/sites/default/files/2025-10/Revsi%C3%B3%20Evid%C3%A8ncia%20Pol%C3%ADtiques%20d%27ocupaci%C3%B3%20Salut%20mental%20Def_0.pdf">published</a>.</li>
+<li>17/10/25: Our paper “From rules to forests” (written with C. Kern) has been <a href="https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w">published</a>.</li>
 </ul>
 </section>
 </div></div>
 </div>
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-<section id="recent-posts" class="level2">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quarto Academic Website Examples and Tips
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 15, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725336000000" data-listing-file-modified-sort="1739198683941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="./posts/event-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Event item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1749249243868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<a href="./posts/news-title/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News item
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p align="right">
-<a href="./posts.html">All Posts »</a>
-</p>
 
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -872,30 +815,28 @@ Jun 24, 2024
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+<a href="https://github.com/ajunquera/ajunquera.github.io">Álvaro Junquera</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
-<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
-</div>
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Design borrowed from <a href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">Gang He</a> and made with <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/favicon.png" width="12"> quarto</a>
+  </li>  
+</ul>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+    <a class="nav-link" href="https://github.com/ajunquera/ajunquera.github.io" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
+    <a class="nav-link" href="http://junquera.bsky.social/" target="_blank">
 <p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
 </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
-</i> 
-    </a>
   </li>  
 </ul>
     </div>

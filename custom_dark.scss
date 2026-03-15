@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+/* Base link color used across the theme */
+$link-color: #7496c9;
+
+/* Navbar background color — set here to allow different values per theme */
+$navbar-bg: #000000;        /* black for darkly */
+
+/*-- scss:rules --*/
+
+/* Body links */
+a {
+  color: $link-color;
+}
+a:hover {
+  color: #436ca8;
+}
+
+/* Active and hovered links in the navbar */
+.navbar-nav .nav-link.active {
+  color: $link-color !important;
+}
+.navbar a:hover {
+  color: #436ca8 !important;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: $link-color !important;
+  border-color: $link-color !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #436ca8 !important;
+  border-color: #436ca8 !important;
+}
+
+/* Table of contents links */
+#TOC a:hover,
+#TOC a.active {
+  color: #436ca8;
+}

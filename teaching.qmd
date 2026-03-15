@@ -1,67 +1,21 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
 title-block-banner: false
 ---
 
+I teach courses related to data analysis and labour economics
 
-## Class 1
+## Instructor
 
-::: {.grid}
+**Statistical Techniques for Social Research**. Bachelor in Political Science (UB). 2024/2025. Instructor. \[[syllabus](https://www.ub.edu/pladocent/?cod_giga=362524&curs=2023&idioma=ENG)\], \[[schedule](https://drive.google.com/file/d/12gJMYPeCHomMGlt7t5fLbncNk18Hsd1V/view?usp=sharing)\].
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+**Comparative Employment Policies in the European Union**. Master in Social Policy, Employment and Welfare (UAB). 2025/2026, 2024/2025. Co-instructor (2 lectures). \[[syllabus](https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/44037/en)\].
 
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 1 introduction.
-
-:::
-
-:::
+**Evaluation techniques for qualitative data**. Specialization Diploma in Evaluation of Labour Market Policies (UB). 2024/2025, 2023/2024. Co-instructor (2 lectures). \[[slides](https://osf.io/9y3vx)\].
 
 
-## Class 2
+## Teaching assistant
 
-::: {.grid}
+**Multivariable Data Analysis**. Bachelor in Sociology (UAB). 2023/2024. \[[syllabus](https://guies.uab.cat/guies_docents/public/portal/html/2023/assignatura/101148/en)\].
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 2 introduction.
-
-:::
-
-:::
-
-
-## Class 3
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
-
-Class 3 introduction. 
-
-:::
-
-:::
-
-
+**Data Analysis**. Bachelor in Criminology (UAB). 2022/2023, 2021/2022, 2020/2021.\[[syllabus](https://guies.uab.cat/guies_docents/public/portal/html/2022/assignatura/100452/en)\].
