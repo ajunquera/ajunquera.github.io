@@ -58,7 +58,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Álvaro Junquera](https://github.com/ajunquera/ajunquera.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[Álvaro Fernández Junquera](https://github.com/ajunquera/ajunquera.github.io) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center:
       - text: "Design borrowed from <a href='https://github.com/drganghe/quarto-academic-website-template' target='_blank'>Gang He</a> and made with <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>"
 

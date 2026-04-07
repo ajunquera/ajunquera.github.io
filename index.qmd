@@ -76,9 +76,9 @@ I am interested in labour markets, public policy, and methods. My research is fo
 
 ## News
 
+- 05/02/26: Our project "AI4SOCIAL+: AI Readiness for Social Impact" has been selected for [funding]([https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=HORIZON-INFRA-2025-01]) from the European Commission (€7.4 M). I will work on Use Case 1 (AI for Job Trajectories).
 - 07/11/25: Talk at the IV Workshop on International Trends in Economic Research ([UGR](https://tehieco.ugr.es/en)) to present "More money, more effects?".
 - 05/11/25: Our project "Strategies for Human capital Advancement and Productive Employment" (SHAPE) has been awarded [funding](https://www.aei.gob.es/en/announcements/announcements-finder/proyectos-generacion-conocimiento-2024) from the Ministry of Science, Innovation and Universities (Government of Spain).
 - 28/10/25: The policy report on effective ALMP for people with mental disorders (written with D. Gallardo & D. Saeteros) has been [published](https://ivalua.cat/sites/default/files/2025-10/Revsi%C3%B3%20Evid%C3%A8ncia%20Pol%C3%ADtiques%20d%27ocupaci%C3%B3%20Salut%20mental%20Def_0.pdf).
-- 17/10/25: Our paper "From rules to forests" (written with C. Kern) has been [published](https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w).
 
 :::
