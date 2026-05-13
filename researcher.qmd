@@ -1,0 +1,11 @@
+---
+title: "Researcher"
+title-block-banner: false
+---
+I usually feel that many people find it difficult to understand what researchers do in social sciences. Here is a very brief summary of my tasks compared to similar jobs like data scientists.
+
+My job as a [researcher in economics](http://data.europa.eu/esco/isco/C2631) in a scientific institution involves two sets of tasks:
+
+Firstly, finding **good research questions**. Ideally, good research questions may be answered with the available resources and are framed within a larger theory. "Why do some regions have high unemployment rates?" is a very interesting question, but it cannot be answered without establishing a huge amount of assumptions. Science tries to formulate, test, and estimate parameters of middle-range theories that decompose a complex phenomenon in manageable parts. How good certain research questions are is something that is usually judged by independent reviewers in project calls to get funding or peer-review processes in journals or conferences. Unlike police or journalistic research, (social) scientific research is interested in generalizable phenomena that go beyond a single case.
+
+Secondly, doing **data collection** and **data analysis** to answer such questions. Economists' workflow for data collection/analysis is influenced by two scientific traditions: statistical inference and causal inference. The *statistical inference* tradition worries about the sampling error, that is, the robustness of results if we had a different sample of the same population. The *causal inference* tradition worries about the confounding error, that is, the robustness of results if we had different assumptions about the data generation process. In social sciences, data is usually observational and not experimental, which demands more complex methods to make credible causal inferences. Considering these challenges adds two extra layers of methodological complexity to the work of data scientists with more computer-science-oriented training.
