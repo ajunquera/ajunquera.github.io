@@ -1,22 +1,32 @@
-/* css styles */
-
-.navbar-nav .nav-link.active {
-  color: #7496c9; /* present page in navbar */
+.quarto-title-block h1 {
+  font-size: 5rem;
 }
 
-.navbar a:hover {
-  color: #436ca8; /* link colour with the mouse in navbar */
+.quarto-title-block .quarto-title-subtitle {
+  font-size: 4rem;
 }
 
-/* Make navbar, content, and footer have the same max-width and center them */
-.navbar .nav-container, 
-.page-footer {
-    max-width: 1160px; /* Match body width */
-    margin: 0 auto;
-    float: none;
-  }
+.quarto-title-block .quarto-title-authors {
+  font-size: 2.5rem;
+}
 
-/* Ensure the background color covers the whole screen */
-.navbar {
-  width: 100%;
-}  
+
+/* to change the size of the footer logo */
+
+.reveal .slide-logo {
+  max-height: 4rem !important;
+  /* bottom: -2px;
+  right: 10px; */
+}
+
+
+.citation, .citation a,
+.csl-entry,
+.csl-entry a {
+  color: #6e6e6e !important;
+}
+
+
+.azul {
+  color: #182F78;
+}
