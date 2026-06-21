@@ -1,0 +1,32 @@
+.quarto-title-block h1 {
+  font-size: 5rem;
+}
+
+.quarto-title-block .quarto-title-subtitle {
+  font-size: 4rem;
+}
+
+.quarto-title-block .quarto-title-authors {
+  font-size: 2.5rem;
+}
+
+
+/* to change the size of the footer logo */
+
+.reveal .slide-logo {
+  max-height: 4rem !important;
+  /* bottom: -2px;
+  right: 10px; */
+}
+
+
+.citation, .citation a,
+.csl-entry,
+.csl-entry a {
+  color: #6e6e6e !important;
+}
+
+
+.azul {
+  color: #182F78;
+}
