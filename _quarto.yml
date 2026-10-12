@@ -112,7 +112,7 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/ajunquera\.github\.io'
     include-in-header:
       - files/includes/_academic.qmd
       - text: |

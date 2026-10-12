@@ -1,0 +1,317 @@
+---
+format:
+  pdf:
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: lmodern
+    colorlinks: true
+    fontsize: '11'
+    include-in-header:
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{libertine}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+<!-- TITLE -->
+\begin{huge}\begin{center}{\bf Álvaro Fernández Junquera}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+\begin{center}Barcelona Supercomputing Center ∙ \href{mailto:afju@posteo.com}{afju@posteo.com} ∙ \href{https://ajunquera.github.io}{Website}
+\end{center}
+\vspace{15pt}
+
+<!-- ABOUT ME -->
+\begin{large}{\bfseries\scshape{}About me}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+Postdoctoral researcher in applied economics, labour market policies, and industrial policies. Specialized in public policy evaluation with causal inference and machine learning skills.
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 1ST BULLET -->
+\begin{large}{\bfseries\scshape{}Experience}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Barcelona Supercomputing Center}\end{flushleft}
+    \begin{flushright}Nov 2024-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Postdoctoral researcher}\end{flushleft}
+    \begin{flushright}Barcelona, Spain\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* AI4Science fellowship
+* Research on the application of machine learning models to public policy
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Barcelona}\end{flushleft}
+    \begin{flushright}Dec 2024-Sep 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Substitute professor}\end{flushleft}
+    \begin{flushright}Barcelona, Spain\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Teaching section of Econometrics and Statistics
+
+\vspace{7pt}
+
+<!-- EXPERIENCE : 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Autonomous University of Barcelona}\end{flushleft}
+    \begin{flushright}Oct 2020-Oct 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Predoctoral researcher}\end{flushleft}
+    \begin{flushright}Barcelona, Spain\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Research and teaching position funded by the Ministry of Universities of Spain
+* Research stays at the University of Munich and the University of Buenos Aires
+
+\vspace{7pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+\begin{large}
+  {\bfseries\scshape{}Education}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Padova}\end{flushleft}
+    \begin{flushright}Padova, Italy\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{PhD in Economics}\end{flushleft}
+    \begin{flushright}Oct 2024\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Research field: labour economics, public policy evaluation
+* International cotutelle agreement with the Autonomous University of Barcelona
+* Doctoral thesis: "Active labour market policies: effects and predictions for policy design"
+
+\vspace{7pt}
+
+<!-- EDUCATION: 2ND BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Granada}\end{flushleft}
+    \begin{flushright}Granada, Spain\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Master in Economics, 8.11/10}\end{flushleft}
+    \begin{flushright}Oct 2019-Sep 2020\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Specialized in econometrics and macroeconomics, 2 courses with distinction
+* Master's thesis about the effectiveness of fiscal stimuli on employment
+
+\vspace{7pt}
+
+<!-- EDUCATION: 3RD BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Granada}\end{flushleft}
+    \begin{flushright}Granada, Spain\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Bachelor in Political Science, 9.39/10}\end{flushleft}
+    \begin{flushright}Sep 2015-Jun 2019\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+* Specialized in public policies and political theory, 26 courses with distinction
+* Bachelor's thesis on liberal egalitarian political theories
+
+\vspace{7pt}
+
+<!-- EDUCATION: 4TH BULLET -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Pompeu Fabra University}\end{flushleft}
+    \begin{flushright}Barcelona, Spain\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Bachelor in Political Science, exchange student}\end{flushleft}
+    \begin{flushright}Sep 2017-Jun 2018\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{1.5pt}
+
+<!-- PUBLICATIONS -->
+\begin{large}{\bfseries\scshape{}Publications}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{Junquera, Á. F. and Kern, C. (2025)}. From rules to forests: rule-based versus statistical models for jobseeker profiling. \textit{Journal for Labor Market Research, 59}(1), 1-27. \href{https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w}{[Paper]}\\[8pt]
+\noindent\textbf{Godino, A. and Junquera, Á. F. (2025)}. Outsourcing and time-related dimensions of job quality: Evidence from the facility management business. In F. P. García-Márquez (Ed.), \textit{Outsourcing: Cases and Studies in Using Operations Research and Management Science Methods}. Springer. \href{https://link.springer.com/chapter/10.1007/978-3-031-95393-4_2}{[Paper]}\\[8pt]
+\noindent\textbf{Junquera, Á. F. (2024)}. Las políticas activas de empleo en el marco de las políticas de empleo. \textit{Anuario IET de Trabajo y Relaciones Laborales, 10}, e124-e124. \href{https://revistes.uab.cat/anuarioiet/article/view/v10-junquera}{[Paper]}\\[8pt]
+\noindent\textbf{Junquera, Á. F. (2024)}. El diseño de los subsidios al empleo del Servei Públic d'Ocupació de Catalunya (2016-2018). In S. Pérez de Guzmán and M. Iglesias (Coords.), \textit{Precariedades laborales y desigualdades de género en Iberoamérica}. Dykinson. \href{https://www.dykinson.com/libros/precariedades-laborales-y-desigualdades-de-genero-en-iberoamerica/9788411705851/}{[Paper]}\\[8pt]
+\noindent\textbf{Junquera, Á. F. (2024)}. Efectos de la asistencia en la búsqueda de empleo: una revisión sistemática para España. \textit{Gestión y Análisis de Políticas Públicas, 35}, 7-25. Instituto Nacional de Administración Pública. \href{https://revistasonline.inap.es/index.php/GAPP/article/view/11259/12674}{[Paper]}
+```
+
+\vspace{7pt}
+
+<!-- WORKING PAPERS -->
+\begin{large}{\bfseries\scshape{}Working papers}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{Junquera, Á. F. (2025)}. Which companies use employment subsidies for young workers? \href{https://1drv.ms/b/c/9f2f7e1c80f48740/ERkMlv-E9_lPq6jhYDkjO7wB5_iLW-TWIO5lw9GmoxrT9A?e=HYtF9P}{[Paper]}\\[8pt]
+\noindent\textbf{Junquera, Á. F. (2024)}. More money, more effect? Employment effects of job search services of different intensity. \href{https://osf.io/preprints/socarxiv/rjshu}{[Paper]}
+```
+
+\vspace{7pt}
+
+<!-- GRANTS AND AWARDS -->
+\begin{large}{\bfseries\scshape{}Grants and awards}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{Research grant} $\vert$ \textit{Fundación Banco Sabadell} --- Jun 2023-Jun 2024\\[8pt]
+\noindent\textbf{FPU complementary grant for mobility} $\vert$ \textit{Ministry of Universities of Spain} --- Sep 2022-Nov 2022\\[8pt]
+\noindent\textbf{Beca Luis Toharia} $\vert$ \textit{Asociación Española de Economía del Trabajo} --- Jun 2022\\[8pt]
+\noindent\textbf{Erasmus+ Internships} $\vert$ \textit{Autonomous University of Barcelona} --- Jun 2022-Jul 2022\\[8pt]
+\noindent\textbf{Research initiation grant} $\vert$ \textit{University of Granada} --- Apr 2021-Feb 2022\\[8pt]
+\noindent\textbf{FPU grant} $\vert$ \textit{Ministry of Universities of Spain} --- Nov 2020-Nov 2024. Funding for the whole predoctoral period, ranked 15 out of 226 candidates\\[8pt]
+\noindent\textbf{AUIP grant for Iberoamerican Universities} $\vert$ \textit{AUIP} --- Nov 2021. Funding for a research stay in the Department of Economics of the University of Buenos Aires\\[8pt]
+\noindent\textbf{Extraordinary end-of-degree award in the 2015-2019 promotion of Political Science} $\vert$ \textit{UGR} --- Feb 2020\\[8pt]
+\noindent\textbf{Award for excellence in university academic performance} $\vert$ \textit{UGR-Caja Rural} --- Feb 2020. Branch of Business and Legal Sciences\\[8pt]
+\noindent\textbf{CICODE grant for international volunteering} $\vert$ \textit{CICODE (UGR)} --- May 2019\\[8pt]
+\noindent\textbf{Collaboration grant for research initiation} $\vert$ \textit{Ministry of Education, Spain} --- Nov 2018-Jun 2019\\[8pt]
+\noindent\textbf{Best academic records in the 2015/2016 \& 2016/2017 academic years} $\vert$ \textit{UGR} --- Feb 2017 \& Feb 2018
+```
+
+\vspace{7pt}
+
+<!-- CONFERENCES AND WORKSHOPS -->
+\begin{large}{\bfseries\scshape{}Conferences and workshops}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{(2026) XVIII Labour Economics Meeting (AEET)}: Oral communication.\\[8pt]
+\noindent\textbf{(2025) IV Workshop on International Trends in Economic Research (WINTER)}: Oral communication.\\[8pt]
+\noindent\textbf{(2024) XXIX Conference of the Italian Association of Labour Economics}: Oral communication.\\[8pt]
+\noindent\textbf{(2024) XVI Labour Economics Meeting (AEET)}: Oral communication.\\[8pt]
+\noindent\textbf{(2024) I Workshop on Comparative Social and Public Policy}: Oral communication.\\[8pt]
+\noindent\textbf{(2023) II Conference of R and XIII Workshop for R Users}: Oral communication.\\[8pt]
+\noindent\textbf{(2023) V Annual Conference of Experimental Sociology}: Oral communication.\\[8pt]
+\noindent\textbf{(2022) XV Labour Economics Meeting (AEET)}: Oral communication.\\[8pt]
+\noindent\textbf{(2022) XIV Spanish Congress of Sociology}: Oral communication.\\[8pt]
+\noindent\textbf{(2021) II Workshop `Experimentation: Society and Politics'}: Oral communication.\\[8pt]
+\noindent\textbf{(2021) XV European Sociological Association Conference}: Oral communication.
+```
+
+\vspace{7pt}
+
+<!-- RESEARCH PROJECTS AND CONTRACTS-->
+\begin{large}{\bfseries\scshape{}Research projects and contracts}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{2026-}: ESEC - Effective Subsidies for Employment Creation. Call: Social Research Call 2026 ("la Caixa" Foundation). Amount: €114,892.58 (PI: Caterina Calsamiglia, BSC).\\[8pt]
+\noindent\textbf{2026-}: AI4SOCIAL+ - AI Readiness for Social Impact. Call: HORIZON-INFRA-2025-01-EOSC-03 - Advancing AI-readiness and Machine-Actionability in the EOSC Ecosystem (European Commission). Amount: €7,486,799.08 (Coordinator: BSC).\\[8pt]
+\noindent\textbf{2025-}: SHAPE - Strategies for Human capital Advancement and Productive Employment. Call: Proyectos Generacion de Conocimiento 2024 (Ministerio de Ciencia, ES). Amount: €163,000 (PI: Caterina Calsamiglia, BSC).\\[8pt]
+\noindent\textbf{2023-2024}: Good practices to tackle young unemployment: An analysis of the European experience. Research contract founded by the Public Employment Service of Catalonia. (PI: Óscar Molina, UAB).\\[8pt]
+\noindent\textbf{2021-2022}: PerfilaSP - Analysis of sociological and psychological variables as predictors of employability for the profiling of the Public Employment Service of Catalonia. Call: Subvenciones a trabajos de investigación sobre Administración pública y políticas públicas 2021 (EAPC, CAT). Amount: €12,000 (PI: Óscar Molina, UAB). \href{https://eapc.gencat.cat/web/.content/home/recerca/Convocatories_de_recerca/subvencions_a_la_realitzacio_de_treballs_de_recerca/2021/treballs-complets/2021_TR_ocupabilitat.pdf}{[Policy report]}\\[8pt]
+\noindent\textbf{2021}: Design, implementation, and impact evaluation of the Reempresa-SOC program. Research contract founded by the Public Employment Service of Catalonia. (PI: Joan Miquel Verd, UAB). \href{https://serveiocupacio.gencat.cat/web/.content/01_SOC/09_Transparencia-i-bon-govern/Avaluacio-i-estudis/Avaluacions-de-politiques-actives-docupacio-02/Informe_Reempresa.pdf}{[Policy report]}
+```
+
+\vspace{7pt}
+
+<!-- TEACHING -->
+\begin{large}{\bfseries\scshape{}Teaching}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{2024/2025}: Lecturer of \textit{Statistical Techniques for Social Research} (6 ECTS). Bachelor in Political Science (UB). 60 hours of instruction.\\[8pt]
+\noindent\textbf{2024/2025, 2025/2026}: Lecturer of \textit{Comparative Employment Policies in the European Union} (6 ECTS). Master's Degree in Social Policy, Employment and Welfare (UAB). 4 hours and 2 hours of instruction.\\[8pt]
+\noindent\textbf{2023/2024, 2024/2025}: Workshop Lecturer of \textit{Qualitative Evaluation Techniques} (4 ECTS). Specialization Diploma in Evaluation of labour market policies (UB). 3 hours of instruction.\\[8pt]
+\noindent\textbf{2024/2025}: Workshop Lecturer of \textit{Monitoring and indicators} (4 ECTS). Specialization Diploma in Evaluation of labour market policies (UB). 3 hours of instruction.\\[8pt]
+\noindent\textbf{2023/2024}: Teaching Assistant of \textit{Multivariable Data Analysis} (6 ECTS). Bachelor's in Sociology, year 3 (UAB). 12 hours of instruction.\\[8pt]
+\noindent\textbf{2022/2023, 2021/2022, 2020/2021}: Teaching Assistant of \textit{Data Analysis} (6 ECTS). Bachelor's in Criminology, year 2 (UAB). Taught using R. 20.5 hours (22/23), 22 hours (21/22), and 14 hours (20/21) of instruction.
+```
+
+\vspace{7pt}
+
+<!-- OTHER EDUCATION -->
+\begin{large}{\bfseries\scshape{}Other education}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{2020-2024}: Program of higher education teaching (FDES), UAB (87 hours).\\[8pt]
+\noindent\textbf{2023}: Machine learning for social sciences, RECSM-UPF (12 hours).\\[8pt]
+\noindent\textbf{2021}: Attention to university students with specific educational needs, accessibility of teaching-learning material and universal design for learning, UAB (12 hours).\\[8pt]
+\noindent\textbf{2021}: Competence assessment strategies in hybrid learning environments, UAB (6 hours).\\[8pt]
+\noindent\textbf{2021}: Experiments in the study of public opinion, RECSM-UPF (12 hours).
+```
+
+\vspace{7pt}
+
+<!-- OTHER SKILLS -->
+\begin{large}{\bfseries\scshape{}Other skills}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{Languages}: English (C1), German (B1), Spanish (native).\\[8pt]
+\noindent\textbf{Programming languages}: R, Python, STATA, Bash.\\[8pt]
+\noindent\textbf{Publishing software}: LaTeX, Markdown, Quarto.
+```
+
+\vspace{7pt}
+
+<!-- REFERENCES -->
+\begin{large}{\bfseries\scshape{}References}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+```{=latex}
+\noindent\textbf{Enrico Rettore}: Full Professor of Econometrics at the University of Padova.\\[8pt]
+\noindent\textbf{Henry Aray}: Associate Professor of Economics at the University of Granada.\\[8pt]
+\noindent\textbf{Christoph Kern}: Junior Professor of Social Data Science and Statistical Learning at the LMU - University of Munich.
+```

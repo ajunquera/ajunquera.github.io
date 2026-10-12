@@ -76,9 +76,9 @@ I am interested in labour markets, public policy, and methods. My research is fo
 
 ## News
 
+- 20/07/26: Our project "Effective Subsidies for Employment Creation" has got [funding](https://elobservatoriosocial.fundacionlacaixa.org/es/-/social-research-call-2026-src-2026) from "la Caixa" Foundation (€ 114K).
 - 20/04/26: Our paper "Innovation in the design of labour market policies: new evidence with deep learning" will be presented at the [XVIII Conference on Labour Economics](https://aeet.eu/xviii-jornadas-de-economia-laboral-2026/).
-- 05/02/26: Our project "AI4SOCIAL+: AI Readiness for Social Impact" has been selected for [funding](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=HORIZON-INFRA-2025-01) from the European Commission (€7.4 M). I will work on Use Case 1 (AI for Job Trajectories).
-- 07/11/25: Talk at the IV Workshop on International Trends in Economic Research ([UGR](https://tehieco.ugr.es/en)) to present "More money, more effects?".
-- 05/11/25: Our project "Strategies for Human capital Advancement and Productive Employment" (SHAPE) has been awarded [funding](https://www.aei.gob.es/en/announcements/announcements-finder/proyectos-generacion-conocimiento-2024) from the Ministry of Science, Innovation and Universities (Government of Spain).
+
+Read old news [here](old_news.qmd).
 
 :::
