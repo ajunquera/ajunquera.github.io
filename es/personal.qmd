@@ -1,0 +1,10 @@
+---
+title: "Personal"
+title-block-banner: false
+---
+
+Mi mayor pasión es el *Carnaval de Cádiz*, una mezcla de distintas artes con una profunda preocupación por los problemas sociales y la belleza popular. Cada febrero, numerosas agrupaciones comparten teatros musicales que van de lo poético a lo cómico.
+
+{{< video https://www.youtube.com/watch?v=pm79P9BHtco start="372" >}}
+
+{{< video https://www.youtube.com/watch?v=k7xzazEcMT4 start="421" >}}

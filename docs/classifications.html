@@ -83,25 +83,142 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
+
 <!-- 
+
 Load Academicons v1: https://jpswalsh.github.io/academicons/
+
 -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+
+
+
 <!---
+
 The following code are needed to show dimension citation and altmetrics.
+
 https://api.altmetric.com/embeds.html
+
 https://badge.dimensions.ai/
+
 --->
+
+
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
+
+
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
+
+
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!--
+Language switcher (English <-> Spanish).
+- English pages live at the site root; their Spanish versions live in es/ with the same file name.
+- The navbar item with class "lang-flag" (see _quarto.yml) shows the flag of the *other* language
+  and links to the same page in that language.
+- On Spanish pages (lang: es, set in es/_metadata.yml) the shared navbar is translated and its
+  internal links are redirected to the Spanish pages.
+To add a new translated page: create es/<name>.qmd and add <name> to PAGES below.
+-->
+<style>
+.lang-flag {
+  display: inline-block;
+  width: 1.5em;
+  height: 1em;
+  vertical-align: -0.12em;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(128, 128, 128, 0.45);
+  background-size: cover;
+  background-position: center;
+  /* Spain flag: shown on the English pages */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='3' height='2' fill='%23AA151B'/%3E%3Crect y='.5' width='3' height='1' fill='%23F1BF00'/%3E%3C/svg%3E");
+}
+/* UK flag: shown on the Spanish pages */
+html[lang="es"] .lang-flag {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 30'%3E%3CclipPath id='t'%3E%3Cpath d='M30,15h30v15zv15h-30zh-30v-15zv-15h30z'/%3E%3C/clipPath%3E%3Cpath d='M0,0v30h60v-30z' fill='%23012169'/%3E%3Cpath d='M0,0 60,30M60,0 0,30' stroke='%23fff' stroke-width='6'/%3E%3Cpath d='M0,0 60,30M60,0 0,30' clip-path='url(%23t)' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M30,0v30M0,15h60' stroke='%23fff' stroke-width='10'/%3E%3Cpath d='M30,0v30M0,15h60' stroke='%23C8102E' stroke-width='6'/%3E%3C/svg%3E");
+}
+</style>
+<script>
+(function () {
+  // Pages that exist in both languages (file names without extension)
+  var PAGES = ["index", "research", "researcher", "classifications", "old_news", "teaching", "personal"];
+  // Navbar and footer labels (English -> Spanish)
+  var LABELS = {
+    "Research": "Investigación",
+    "Teaching": "Docencia",
+    "Others": "Otros",
+    "Classifications": "Clasificaciones",
+    "Personal": "Personal"
+  };
+  var isEs = document.documentElement.lang === "es";
+  var page = (location.pathname.split("/").pop() || "index").replace(/\.html$/, "");
+  var translated = PAGES.indexOf(page) !== -1;
+
+  function setHref(a, url) {
+    a.setAttribute("href", url);
+    if (a.hasAttribute("data-original-href")) a.setAttribute("data-original-href", url);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var flag = document.querySelector(".lang-flag");
+    var flagLink = flag && flag.closest("a");
+    if (!flagLink) return;
+
+    // Quarto's own link points to es/index.html: use it to locate both site roots
+    var esRoot = flagLink.href.replace(/[^\/]*$/, "");   // .../es/
+    var enRoot = new URL("../", esRoot).href;            // .../
+
+    // 1. Flag: link to the same page in the other language
+    var target = translated ? page + ".html" + location.hash : "index.html";
+    var label = isEs ? "English version" : "Versión en español";
+    setHref(flagLink, (isEs ? enRoot : esRoot) + target);
+    flagLink.setAttribute("hreflang", isEs ? "en" : "es");
+    flagLink.setAttribute("title", label);
+    flagLink.setAttribute("aria-label", label);
+    flagLink.classList.remove("active");
+    flagLink.removeAttribute("aria-current");
+
+    if (!isEs) return;
+
+    // 2. Spanish pages: send the shared navbar links to the Spanish pages
+    document.querySelectorAll("#quarto-header a[href]").forEach(function (a) {
+      if (a === flagLink) return;
+      var url = a.href.split("#")[0];
+      if (url.indexOf(enRoot) !== 0) return;
+      var name = url.slice(enRoot.length).replace(/\.html$/, "") || "index";
+      if (PAGES.indexOf(name) === -1) return;
+      setHref(a, esRoot + name + ".html");
+      if (name === page && a.classList.contains("nav-link")) {
+        a.classList.add("active");
+        a.setAttribute("aria-current", "page");
+      }
+    });
+
+    // 3. Spanish pages: translate the navbar labels and the footer
+    document.querySelectorAll("#quarto-header .menu-text, #quarto-header .dropdown-text").forEach(function (el) {
+      var es = LABELS[el.textContent.trim()];
+      if (es) el.textContent = es;
+    });
+    document.querySelectorAll(".nav-footer").forEach(function (footer) {
+      var walker = document.createTreeWalker(footer, NodeFilter.SHOW_TEXT);
+      var node;
+      while ((node = walker.nextNode())) {
+        node.nodeValue = node.nodeValue.replace("Made with", "Hecho con");
+      }
+    });
+  });
+})();
+</script>
 <meta name="google-site-verification" content="WBATUhjiLdMxkRWaPT9ePxyl3uoroupyS-gJbVWYrJg">
 
 
@@ -314,6 +431,10 @@ https://badge.dimensions.ai/
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./es/index.html"> 
+<span class="menu-text"><span class="lang-flag"></span></span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./files/CV_AFJ_0426.pdf"> 
 <span class="menu-text">CV</span></a>
@@ -569,7 +690,7 @@ document.addEventListener("quarto-color-scheme-changed", () => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/ajunquera\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

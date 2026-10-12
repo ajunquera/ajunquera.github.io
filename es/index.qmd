@@ -1,0 +1,45 @@
+---
+title: "Álvaro F. Junquera"
+subtitle: |
+  Barcelona Supercomputing Center (BSC-CNS)
+description-meta: "Álvaro Fernández Junquera es investigador en economía laboral"
+image: "../files/images/afj.jpg"
+page-navigation: false
+toc: false
+page-layout: full
+from: markdown+emoji
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: sun
+      text: Laboratorio
+      href: https://www.bsc.es/discover-bsc/organisation/scientific-structure/cssh
+      target: _blank
+    - icon: envelope
+      text: Correo
+      href: mailto:alvaro.junquera@bsc.es
+    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
+      href: https://orcid.org/0000-0003-0080-7608
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.es/citations?user=K-5DfYoAAAAJ&hl=es&oi=ao
+      target: _blank
+---
+
+:::{#hero-heading}
+
+Soy [investigador](researcher.qmd) posdoctoral de economía en el Laboratorio de Ciencias Sociales y Humanidades Computacionales del Barcelona Supercomputing Center (BSC). Soy doctor en Economía por la Universidad de Padua y doctor en Sociología por la Universidad Autónoma de Barcelona.
+
+Me interesan los mercados de trabajo, las políticas públicas y los métodos. Mi investigación se centra en la aplicación de inferencia causal y aprendizaje automático al análisis de las políticas de empleo y las políticas industriales. He impartido cursos de análisis de datos con `R`.
+
+## Noticias
+
+- 20/07/26: Nuestro proyecto «Effective Subsidies for Employment Creation» ha obtenido [financiación](https://elobservatoriosocial.fundacionlacaixa.org/es/-/social-research-call-2026-src-2026) de la Fundación "la Caixa" (114.000 €).
+- 20/04/26: Nuestro artículo «Innovation in the design of labour market policies: new evidence with deep learning» se presentará en las [XVIII Jornadas de Economía Laboral](https://aeet.eu/xviii-jornadas-de-economia-laboral-2026/).
+
+Noticias anteriores [aquí](old_news.qmd).
+
+:::

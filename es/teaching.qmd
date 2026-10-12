@@ -1,0 +1,21 @@
+---
+title: "Docencia"
+title-block-banner: false
+---
+
+Imparto asignaturas relacionadas con el análisis de datos y la economía laboral
+
+## Docente
+
+**Técnicas Estadísticas de Investigación Social**. Grado en Ciencias Políticas (UB). 2024/2025. Profesor. \[[plan docente](https://www.ub.edu/pladocent/?cod_giga=362524&curs=2023&idioma=CAS)\], \[[calendario](../files/TEIS_schedule_2425AFJ.pdf)\].
+
+**Políticas de Empleo Comparadas en la Unión Europea**. Máster en Política Social, Trabajo y Bienestar (UAB). 2025/2026, 2024/2025. Coprofesor (2 sesiones). \[[guía docente](https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/44037/es)\].
+
+**Técnicas de evaluación para datos cualitativos**. Diploma de Especialización en Evaluación de Políticas de Empleo (UB). 2024/2025, 2023/2024. Coprofesor (2 sesiones). \[[diapositivas](https://osf.io/9y3vx)\].
+
+
+## Asistente de docencia
+
+**Análisis Multivariado de Datos**. Grado en Sociología (UAB). 2023/2024. \[[guía docente](https://guies.uab.cat/guies_docents/public/portal/html/2023/assignatura/101148/es)\].
+
+**Análisis de Datos**. Grado en Criminología (UAB). 2022/2023, 2021/2022, 2020/2021. \[[guía docente](https://guies.uab.cat/guies_docents/public/portal/html/2022/assignatura/100452/es)\].

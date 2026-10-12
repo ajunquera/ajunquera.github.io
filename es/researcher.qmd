@@ -1,0 +1,11 @@
+---
+title: "Investigador"
+title-block-banner: false
+---
+A menudo tengo la sensación de que a mucha gente le cuesta entender qué hacen los investigadores en ciencias sociales. Aquí va un resumen muy breve de mis tareas en comparación con trabajos similares, como el de los científicos de datos.
+
+Mi trabajo como [investigador en economía](http://data.europa.eu/esco/isco/C2631) en una institución científica comprende dos conjuntos de tareas:
+
+En primer lugar, encontrar **buenas preguntas de investigación**. Idealmente, las buenas preguntas de investigación pueden responderse con los recursos disponibles y se enmarcan en una teoría más amplia. «¿Por qué algunas regiones tienen tasas de desempleo elevadas?» es una pregunta muy interesante, pero no puede responderse sin establecer una enorme cantidad de supuestos. La ciencia intenta formular, contrastar y estimar parámetros de teorías de alcance medio que descomponen un fenómeno complejo en partes manejables. La calidad de las preguntas de investigación suele ser juzgada por evaluadores independientes en las convocatorias de proyectos para obtener financiación o en los procesos de revisión por pares de revistas y congresos. A diferencia de la investigación policial o periodística, la investigación científica (social) se interesa por fenómenos generalizables que van más allá de un caso concreto.
+
+En segundo lugar, llevar a cabo la **recogida de datos** y el **análisis de datos** para responder a esas preguntas. El flujo de trabajo de los economistas en la recogida y el análisis de datos está influido por dos tradiciones científicas: la inferencia estadística y la inferencia causal. La tradición de la *inferencia estadística* se preocupa por el error de muestreo, es decir, por la robustez de los resultados si tuviéramos una muestra distinta de la misma población. La tradición de la *inferencia causal* se preocupa por el error de confusión, es decir, por la robustez de los resultados si partiéramos de supuestos distintos sobre el proceso de generación de los datos. En ciencias sociales los datos suelen ser observacionales y no experimentales, lo que exige métodos más complejos para hacer inferencias causales creíbles. Tener en cuenta estos retos añade dos capas adicionales de complejidad metodológica al trabajo de los científicos de datos con una formación más orientada a la informática.

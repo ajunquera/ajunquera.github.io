@@ -43,6 +43,9 @@ website:
           href: personal.qmd
 
     right: 
+      - text: "<span class='lang-flag'></span>"   # language switcher, see files/includes/_lang.html
+        href: es/index.qmd
+        aria-label: "Versión en español"
       - text: CV
         href: files/CV_AFJ_0426.pdf
       - icon: github
@@ -115,6 +118,7 @@ format:
     link-external-filter: '^(?:http:|https:)\/\/ajunquera\.github\.io'
     include-in-header:
       - files/includes/_academic.qmd
+      - files/includes/_lang.html
       - text: |
           <meta name="google-site-verification" content="WBATUhjiLdMxkRWaPT9ePxyl3uoroupyS-gJbVWYrJg" />
 

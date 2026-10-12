@@ -1,0 +1,10 @@
+---
+title: "Noticias anteriores"
+title-block-banner: false
+---
+
+- 05/02/26: Nuestro proyecto «AI4SOCIAL+: AI Readiness for Social Impact» ha sido seleccionado para recibir [financiación](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094501,31094502,31094503&callIdentifier=HORIZON-INFRA-2025-01) de la Comisión Europea (7,4 M€). Trabajaré en el caso de uso 1 (IA para trayectorias laborales).
+- 07/11/25: Charla en el IV Workshop on International Trends in Economic Research ([UGR](https://tehieco.ugr.es/en)) para presentar «More money, more effects?».
+- 05/11/25: Nuestro proyecto «Strategies for Human capital Advancement and Productive Employment» (SHAPE) ha obtenido [financiación](https://www.aei.gob.es/en/announcements/announcements-finder/proyectos-generacion-conocimiento-2024) del Ministerio de Ciencia, Innovación y Universidades (Gobierno de España).
+- 28/10/25: Se ha [publicado](https://ivalua.cat/sites/default/files/2025-10/Revsi%C3%B3%20Evid%C3%A8ncia%20Pol%C3%ADtiques%20d%27ocupaci%C3%B3%20Salut%20mental%20Def_0.pdf) el informe sobre políticas activas de empleo eficaces para personas con trastornos de salud mental (escrito con D. Gallardo y D. Saeteros).
+- 17/10/25: Se ha [publicado](https://labourmarketresearch.springeropen.com/articles/10.1186/s12651-025-00399-w) nuestro artículo «From rules to forests» (escrito con C. Kern).
